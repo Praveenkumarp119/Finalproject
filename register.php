@@ -4,6 +4,8 @@
 
 	include 'includes/session.php';
 
+	error_reporting(0);
+
 	if(isset($_POST['signup'])){
 		$firstname = $_POST['firstname'];
 		$lastname = $_POST['lastname'];
